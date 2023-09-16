@@ -17,7 +17,7 @@ class Fruta extends Alimento {
   void estaMadura(int qtd_dias) {
     if (qtd_dias >= diasdecolheita) {
       print("A fruta $nome está madura");
-    } else {
+    } else { 
       print("A fruta $nome não está madura");
     }
   }
